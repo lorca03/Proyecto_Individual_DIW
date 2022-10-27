@@ -1,0 +1,116 @@
+// Navbar
+#navbar {
+  // height: 10vh;
+  .logo {
+    float: left;
+    img {
+      height: 50px;
+    }
+  } //End .logo
+  ul {
+    float: right;
+    li {
+      list-style: none;
+      float: left;
+      a {
+        display: block;
+        padding: 20px;
+        text-align: center;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  } //End ul
+} //End #navbar
+
+// Showcase
+#showcase {
+  background: url('../img/gallery-1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 85vh;
+  .showcase-content {
+    text-align: center;
+    padding: 150px;
+    &-box {
+      background: rgba(255, 255, 255, 0.5);
+      width: 70%;
+      margin: 0 auto;
+      padding: 80px 120px;
+      color: #fff;
+      a {
+        padding: 13px 45px;
+      }
+    }
+  } //End .showcase-content
+} //End #showcase
+
+// Features
+#features {
+  text-align: center;
+  .features-wrap {
+    display: flex;
+    &-box {
+      margin: 10px;
+      img {
+        width: 100%;
+      }
+    }
+  } //End .features-wrap
+} //#features
+
+// Features Sub
+#features-sub {
+  display: flex;
+  .features-sub-1 {
+    background: url('../img/gallery-9.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 470px;
+    width: 100%;
+  }
+  .features-sub-2 {
+    background: url('../img/gallery-4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 470px;
+    width: 100%;
+  }
+  .features-sub-content {
+    text-align: center;
+    padding: 80px;
+    &-box {
+      background: rgba(255, 255, 255, 0.5);
+      margin: 0 auto;
+      padding: 80px 120px;
+      a {
+        padding: 11px 15px;
+        font-size: 14px;
+      }
+    }
+  } //End .features-sub-content
+} //End #features-sub
+
+// Gallery 
+#gallery {
+  text-align: center;
+  .gallery-wrap {
+    display: flex;
+    overflow: hidden;
+    img {
+      // width: 100%;
+      height: 160px;
+      width: 250px;
+      margin: 5px;
+    }
+  }
+} //End #gallery
+
+// Footer
+#mainfooter {
+  background: #ededed
+}
