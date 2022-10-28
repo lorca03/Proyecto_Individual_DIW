@@ -1,0 +1,20 @@
+body {
+  background-color: royalblue;
+}
+
+nav {
+  background-color: white;
+}
+nav img {
+  padding-left: 7%;
+  height: 90px;
+}
+nav .collapse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 15%;
+}
+nav .navbar-nav .informate {
+  padding-right: 50%;
+}/*# sourceMappingURL=estilos.css.map */

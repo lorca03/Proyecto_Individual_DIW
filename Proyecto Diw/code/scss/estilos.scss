@@ -1,0 +1,28 @@
+body{
+    background-color: royalblue;
+}
+
+
+nav{
+    background-color: white;
+    
+    img{
+        padding-left: 7%;
+        height: 90px;
+    }
+    .collapse{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 15%;
+    }
+    .navbar-nav{
+        //padding-left: 70%;
+        
+        //background-color: aliceblue;
+        .informate{
+            padding-right: 50%;
+        }
+
+    }
+}
