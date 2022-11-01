@@ -1,5 +1,23 @@
 {
   "dependencies": {
+    "bootstrap": "^5.2.2",
     "i": "^0.3.7"
-  }
+  },
+  "name": "proyecto_individual_diw",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorca03/Proyecto_Individual_DIW.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lorca03/Proyecto_Individual_DIW/issues"
+  },
+  "homepage": "https://github.com/lorca03/Proyecto_Individual_DIW#readme"
 }
