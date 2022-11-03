@@ -3,7 +3,6 @@ body {
 }
 body nav {
   background-color: #dcd7c9;
-  display: flex;
 }
 body nav img {
   padding-left: 10%;
