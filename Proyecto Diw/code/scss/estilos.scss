@@ -196,6 +196,7 @@ body {
                                 img {
                                     border-radius: 10px;
                                     min-height: 350px;
+                                    max-height: 350px;
                                     opacity: 0.8;
                                 }
 
@@ -280,7 +281,7 @@ body {
         border-radius: 15px;
         border: 0px;
         box-shadow: 0 4px 8px 0 $azul;
-        background-image: url("../../img/Captura.PNG");
+        background-image: url("../../recursos/Captura.PNG");
         background-position: center;
     }
 }

@@ -160,6 +160,7 @@ body .catalogo #catalogo .apartados #cards .col-lg-6 .carousel .carousel-inner {
 body .catalogo #catalogo .apartados #cards .col-lg-6 .carousel .carousel-inner img {
   border-radius: 10px;
   min-height: 350px;
+  max-height: 350px;
   opacity: 0.8;
 }
 body .catalogo #catalogo .apartados #cards .col-lg-6 .carousel .carousel-inner .carousel-caption {
@@ -225,6 +226,6 @@ body .irArriba {
   border-radius: 15px;
   border: 0px;
   box-shadow: 0 4px 8px 0 #2c3639;
-  background-image: url("../../img/Captura.PNG");
+  background-image: url("../../recursos/Captura.PNG");
   background-position: center;
 }/*# sourceMappingURL=estilos.css.map */
