@@ -1,6 +1,6 @@
 $azul: #2c3639;
 $crema: #dcd7c9;
-$azulclarito: rgb(64, 78, 79,0.9);
+$azulclarito: rgb(64, 78, 79, 0.9);
 $blancoOpacidad: rgba(255, 255, 255, 0.3);
 $rosa: #f7a6a6;
 $rosaclaroOpacidad: hsl(0, 100%, 94%, 0.3);
@@ -195,7 +195,7 @@ body {
                                 img {
                                     border-radius: 10px;
                                     min-height: 350px;
-                                    opacity: .8;
+                                    opacity: 0.8;
                                 }
 
                                 .carousel-caption {
@@ -261,7 +261,6 @@ body {
                 color: $rosa;
             }
         }
-
     }
 
     footer {
