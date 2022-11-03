@@ -9,7 +9,7 @@ Debes instalar lo siguiente:
 
 ## Estilos 
 1. Paleta de colores 
-    * ![Paleta](Proyecto Diw\paletafusionada.png)
+    * <img src="Proyecto Diw\paletafusionada.png" alt="My paleta"/>  
 2. Fuente *Amatic SC*
 ## Construido con 🛠️
 * HTML
