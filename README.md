@@ -16,7 +16,7 @@ Debes instalar lo siguiente:
 2. Paleta de colores 
     * <img src="Proyecto Diw\recursos\paletafusionada.png" alt="My paleta" style="width: 200px; height: 200px; border:1px solid black;" />  
 ## Imagenes 📷
-[Imagenes extraidas de](https://www.pexels.com/es-es/)
+[Imagenes extraidas de esta pagina](https://www.pexels.com/es-es/)
 ## Construido con 🛠️
 * HTML
 * CSS
@@ -24,4 +24,4 @@ Debes instalar lo siguiente:
 * Bootstrap 5
 * JavaScript
 ## Autor ✒️
-**Guillermo Lorca**
+### **Guillermo Lorca**
