@@ -24,7 +24,7 @@
     <!--Nav-->
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <img src="../../recursos/logotrans.png" /><h1>Viajes Lorca</h1>
+        <img src="../../recursos/logotrans.png" /><h1>Lorca travel</h1>
         <!--Boton para cuando se hace pequeño el navbar -->
         <button
           class="navbar-toggler"
@@ -112,7 +112,7 @@
                 <hr size="4px" color="#f7a6a6" />
                 <p>
                   <span class="pais">Cancun/Mexico</span>
-                  <input type="button" value="Más informacíon" onclick="abrirModal()" />
+                  <input type="button" value="Más informacíon" onclick="abrirModal(this)" />
                 </p>
               </div>
             </div>
@@ -130,7 +130,7 @@
                 <hr size="4px" color="#f7a6a6" />
                 <p>
                   <span class="pais">Venecia/Italia</span>
-                  <input type="button" value="Más informacíon" />
+                  <input type="button" value="Más informacíon" onclick="abrirModal(this)"/>
                 </p>
               </div>
             </div>
@@ -148,7 +148,7 @@
                 <hr size="4px" color="#f7a6a6" />
                 <p>
                   <span class="pais">Australia</span>
-                  <input type="button" value="Más informacíon" />
+                  <input type="button" value="Más informacíon" onclick="abrirModal(this)" />
                 </p>
               </div>
             </div>
@@ -172,12 +172,12 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-          <dialog  id="modal">
+          <dialog id="modal">
             <div class="row">
-              <div class="col-10"><h2>Título de la ventana</h2></div>
+              <div class="col-10"><h2 id="tituloVentana"></h2></div>
               <div class="col-2"><button id="cerrar-modal">&times;</button></div>
             </div>
-              <p id="contenido">Este es el contenido</p>
+              <p id="contenido"></p>
           </dialog>
       </div>
     </section>
