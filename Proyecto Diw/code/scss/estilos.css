@@ -122,6 +122,22 @@ body .ofertas .container .carousel .carousel-inner .carousel-caption p input {
 body .ofertas .container .carousel .carousel-inner .carousel-caption p input:hover {
   color: #2c3639;
 }
+body .ofertas .container #modal {
+  border-radius: 10px;
+  border: 2px solid #2c3639;
+  background-color: #f7a6a6;
+  width: 400px;
+  color: #2c3639;
+  height: 150px;
+}
+body .ofertas .container #modal #cerrar-modal {
+  color: #2c3639;
+  font-size: 30px;
+  border: 0px;
+  text-align: center;
+  height: 40px;
+  background-color: #f7a6a6;
+}
 body .catalogo #catalogo {
   padding: 20px;
   display: flex;
@@ -157,11 +173,17 @@ body .catalogo #catalogo .apartados #cards .col-lg-6 .carousel .carousel-inner {
   min-height: 350px;
   border-radius: 10px;
 }
+body .catalogo #catalogo .apartados #cards .col-lg-6 .carousel .carousel-inner .carousel-item:hover img {
+  transform: scale(1.2);
+}
+body .catalogo #catalogo .apartados #cards .col-lg-6 .carousel .carousel-inner .carousel-item {
+  overflow: hidden;
+}
 body .catalogo #catalogo .apartados #cards .col-lg-6 .carousel .carousel-inner img {
   border-radius: 10px;
   min-height: 350px;
   max-height: 350px;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 body .catalogo #catalogo .apartados #cards .col-lg-6 .carousel .carousel-inner .carousel-caption {
   text-shadow: 1px 1px 2px #2c3639, 0 0 1em #f7a6a6, 0 0 0.2em #f7a6a6;
@@ -228,4 +250,7 @@ body .irArriba {
   box-shadow: 0 4px 8px 0 #2c3639;
   background-image: url("../../recursos/Captura.PNG");
   background-position: center;
+}
+body .irArriba:hover {
+  box-shadow: 0 4px 8px 0 #f7a6a6;
 }/*# sourceMappingURL=estilos.css.map */

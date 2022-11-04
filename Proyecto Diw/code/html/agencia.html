@@ -61,10 +61,7 @@
         <div class="container">
           <h1>Viajes al mejor precio</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
-            repudiandae laborum laboriosam modi praesentium, distinctio fuga
-            nemo neque recusandae ratione eaque deserunt quas explicabo.
-          </p>
+            En esta página encontrarás tus viajes preferidos, a lugares espectaculares y aun precio inimaginable. Reserva ya tu viaje de ensueño y no desaproveches esta oportunidad. ¡Visita ya nuestro catálogo!    </p>
           <a href="#catalogo">Catalogo</a>
         </div>
       </div>
@@ -115,7 +112,7 @@
                 <hr size="4px" color="#f7a6a6" />
                 <p>
                   <span class="pais">Cancun/Mexico</span>
-                  <input type="button" value="Más informacíon" />
+                  <input type="button" value="Más informacíon" onclick="abrirModal()" />
                 </p>
               </div>
             </div>
@@ -175,6 +172,13 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+          <dialog  id="modal">
+            <div class="row">
+              <div class="col-10"><h2>Título de la ventana</h2></div>
+              <div class="col-2"><button id="cerrar-modal">&times;</button></div>
+            </div>
+              <p id="contenido">Este es el contenido</p>
+          </dialog>
       </div>
     </section>
     <!--Catalogo-->
@@ -193,13 +197,13 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img
-                      src="../../img/nacional/ciudad/pexels-aleksandar-pasaric-1386444.jpg"
+                      src="../../img/nacional/ciudad/bilbao.jpg"
                       class="d-block w-100"
                     />
                     <div class="carousel-caption  d-md-block">
                       <p></p>
                         <span class="desde">desde</span> 550€ <br />
-                        Barcelona <br />
+                        Bilbao <br />
                         4 días/3 noches
                       </p>
                     </div>
